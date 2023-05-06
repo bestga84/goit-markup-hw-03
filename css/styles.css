@@ -41,6 +41,21 @@ ol {
     background-color: yellow;
 }
 
+.container-hero,
+.container-footer {
+    max-width: 1600px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: yellow;
+}
+
+.about-container,
+.buzy-container {
+    padding-top: 94px;
+}
+
 .header {
     padding-top: 24px;
     padding-bottom: 25px;
@@ -138,8 +153,6 @@ ol {
     margin-right: 30px;
 }
 
-
-
 /* =====Home work # 3===== */
 
 
@@ -156,6 +169,10 @@ ol {
     color: var(--primary-color-font);
 
     font-family: var(--primary-font);
+
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Navigation */
@@ -210,12 +227,21 @@ ol {
 
 .header-bg-color,
 .section-buzy-bg-color,
+.portfolio-bg-color,
+.portfolio-fon {
+    background-color: var(--hero-color-font);
+    /* background-color: tomato; */
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .pesron-bg-color,
 .portfolio-bg-color,
 .portfolio-fon {
     background-color: var(--hero-color-font);
+    /* background-color: tomato; */
 }
-
 
 .hero-text {
     font-weight: 900;
@@ -248,6 +274,9 @@ ol {
 .hero-color,
 .footer-color {
     background-color: var(--hero-footer-color);
+    max-width: 1600px;
+    /* margin-left: auto;
+    margin-right: auto; */
 }
 
 
@@ -285,7 +314,6 @@ ol {
     text-align: center;
     letter-spacing: 0.03em;
 
-    padding-top: 94px;
     padding-bottom: 50px;
 }
 
@@ -296,11 +324,11 @@ ol {
     letter-spacing: 0.03em;
     text-transform: uppercase;
 
-    padding-top: 94px;
     margin-bottom: 10px;
 }
 
 .comand-bg-color {
+    max-width: 1600px;
     background-color: var(--comand-color);
 }
 
