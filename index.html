@@ -5,33 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Студія</title>    
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" 
+            rel="stylesheet">
+    <link rel="stylesheet" 
+            href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" 
+            integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" 
+            crossorigin="anonymous" 
+            referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body class="body">
-    <header class="header-bg-color">
-        <a href="./index.html" class="link logo"><span class="logo-part">Web</span>Studio</a>
-        <nav>
-            <ul class="list">
+    <header class="header-bg-color header">
+        <div class="container header-container">
+            <a href="./index.html" class="link logo logo-margin"><span class="logo-part">Web</span>Studio</a>
+            <nav>
+                <ul class="list navigation-list">
+                    <li class="nav-list-item">
+                        <a href="./index.html" class="link nav-list-link nav-base-text current">Studio</a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a href="./portfolio.html" class="link nav-list-link nav-base-text nav-text">Portfolio</a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a href="" class="link nav-list-link nav-base-text nav-text">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
+            <ul class="list navigation-list">
                 <li>
-                    <a href="./index.html" class="link nav-list-link nav-base-text current">Студія</a>
+                    <a href="mailto:info@devstudio.com" class="link nav-list-link mail-tel-text contact-mail">info@devstudio.com</a>
                 </li>
                 <li>
-                    <a href="./portfolio.html" class="link nav-list-link nav-base-text nav-text">Портфоліо</a>
+                    <a href="tel:+12127724150" class="link nav-list-link mail-tel-text contact-number">+1 212-772-4150</a>
                 </li>
-                <li>
-                    <a href="" class="link nav-list-link nav-base-text nav-text">Контакти</a>
-                </li>
-            </ul>
-        </nav>
-        <ul class="list">
-            <li>
-                <a href="mailto:info@devstudio.com" class="link nav-list-link mail-tel-text">info@devstudio.com</a>
-            </li>
-            <li>
-                <a href="tel:+380961111111" class="link nav-list-link mail-tel-text">+38 096 111 11 11</a>
-            </li>
-        </ul>
+            </ul>     
+        </div>
     </header>
 
     <main>
@@ -110,15 +118,15 @@
         <address>
             <ul class="list">
                 <li>
-                    <a href="https://goo.gl/maps/n2YJ8h9z3a9Nj8EF7" 
+                    <a href="https://goo.gl/maps/4em12KB8nVVe2ssn9" 
                     target="_blank" 
-                    rel="noopener nooferrer" class="link text-addres">м. Київ, пр-т Лесі Українки, 26</a>
+                    rel="noopener nooferrer" class="link text-addres">695 Park Ave, NY 10065, USA</a>
                 </li>
                 <li>
                     <a href="mailto:info@devstudio.com" class="link mail-tel-footer">info@devstudio.com</a>                    
                 </li>
                 <li>
-                    <a href="tel:+380961111111" class="link mail-tel-footer">+38 096 111 11 11</a>
+                    <a href="tel:+12127724150" class="link mail-tel-footer">+1 212-772-4150</a>
                 </li>
             </ul>
         </address>
