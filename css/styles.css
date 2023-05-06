@@ -38,7 +38,7 @@ ol {
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 
 .header {
@@ -100,6 +100,46 @@ ol {
 .address-footer {
     padding-bottom: 60px;
 }
+
+.buzy-flex {
+    display: flex;
+    flex-wrap: wrap;  
+}
+
+.buzy-flex > .item {
+    /* justify-content: space-between;  */
+    flex-basis: calc((100% - 30px*3) / 4);
+}
+
+.buzy-flex > .item:not(:nth-child(4n)) {
+    margin-right: 30px;
+}
+
+/* .buzy-flex > .item:not(:nth-last-child(-n + 4)) {
+    margin-bottom: 30px;
+} */
+
+/* .buzy-img {
+    display: block;
+} */
+
+.photo {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 94px;
+}
+
+.photo > .photo-buzy {
+    flex-basis: calc((100% - 30px*2) / 3);
+    margin-bottom: 30px;
+}
+
+.photo > .photo-buzy:not(:nth-child(3n)) {
+    margin-right: 30px;
+}
+
+
+
 /* =====Home work # 3===== */
 
 
@@ -218,6 +258,8 @@ ol {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+
+    /* padding-bottom: 194px; */
 }
 
 .description-profeshion {
@@ -242,6 +284,9 @@ ol {
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
+
+    padding-top: 94px;
+    padding-bottom: 50px;
 }
 
 .main-buzy {
@@ -250,6 +295,9 @@ ol {
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+
+    padding-top: 94px;
+    margin-bottom: 10px;
 }
 
 .comand-bg-color {
