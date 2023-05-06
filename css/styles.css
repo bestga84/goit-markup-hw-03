@@ -126,7 +126,7 @@ ol {
 .photo {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 94px;
+    padding-bottom: 94px;
 }
 
 .photo > .photo-buzy {
