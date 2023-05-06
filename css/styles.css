@@ -52,6 +52,24 @@ ol {
     min-height: 32px;
 }
 
+.hero-padding {
+    padding-top: 200px;
+    padding-bottom: 30px;
+}
+
+.hero-title {
+    display: block;
+    text-align: center;
+}
+
+.btn-box {
+    box-sizing: border-box;
+    min-width: 200px;
+    min-height: 50px;
+    border-radius: 4px;
+    margin-bottom: 200px;
+}
+
 .navigation-list {
     display: flex;
     align-items: center;
@@ -67,14 +85,20 @@ ol {
     margin-right: 50px;
 }
 
-.contact-mail {
-    /* margin-left: auto; */
-    /* margin-right: 40px; */
-}
 
 .contact-number {
     min-height: 30px;
     margin-left: 40px;
+}
+
+.logo-footer {
+    display: inline-block;
+    padding-top: 60px;
+    padding-bottom: 28px;
+}
+
+.address-footer {
+    padding-bottom: 60px;
 }
 /* =====Home work # 3===== */
 
@@ -253,7 +277,6 @@ ol {
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
-
 
 /*================*/
 /* Portfolio page */
