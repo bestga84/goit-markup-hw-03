@@ -1,0 +1,237 @@
+:root {
+    --primary-color-font: #212121;
+    --second-color-font: #2196F3;
+    --color-logo: #000000;
+    --paragraph-color-font: #757575;
+    --hero-color-font: #FFFFFF;
+    --footer-color-font: rgba(255, 255, 255, 0.6);
+    --hero-footer-color: #2F303A;
+    --comand-color: #F5F4FA;
+
+    --primary-font: "Roboto", sans-serif;
+    --second-font: "Raleway", sans-serif;
+}
+
+
+
+
+  
+
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+  }
+
+.body {
+    color: var(--primary-color-font);
+
+    font-family: var(--primary-font);
+}
+
+/* Navigation */
+
+
+.logo {
+    color: var(--color-logo);
+}
+
+.logo-part,
+.current {
+    color: var(--second-color-font);
+
+}
+
+.logo,
+.logo-part {
+    font-family: var(--second-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.nav-text {
+    color: var(--primary-color-font);
+}
+
+.nav-list-link:hover,
+.nav-list-link:focus {
+    color: var(--second-color-font);
+    cursor: pointer;
+}
+
+.nav-base-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.mail-tel-text,
+.paragraph-text {
+    color: var(--paragraph-color-font);
+}
+
+.hero-color-text,
+.logo-second,
+.text-addres {
+    color: var(--hero-color-font);
+}
+
+.header-bg-color,
+.section-buzy-bg-color,
+.pesron-bg-color,
+.portfolio-bg-color,
+.portfolio-fon {
+    background-color: var(--hero-color-font);
+}
+
+
+.hero-text {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;   
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.hero-btn {
+    background-color: var(--second-color-font);
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+.nav-text,
+.mail-tel-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.hero-color,
+.footer-color {
+    background-color: var(--hero-footer-color);
+}
+
+
+/* Main */
+
+.description-buzy {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.description-profeshion {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.name-person {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.main-h-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.main-buzy {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.comand-bg-color {
+    background-color: var(--comand-color);
+}
+
+/* Portfolio page*/
+.nav-list-link:hover,
+.nav-list-link:focus {
+    color: var(--second-color-font);
+    cursor: pointer;
+}
+
+/* Footer */
+
+.mail-tel-footer {
+    color: var(--footer-color-font);
+}
+
+.text-addres,
+.mail-tel-footer {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+
+/*================*/
+/* Portfolio page */
+
+.portfolio-btn {
+    color: var(--primary-color-font);
+    background-color: var(--comand-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+    background-color: var(--second-color-font);
+    color: var(--hero-color-font);
+    cursor: pointer;
+}
+
+.portfolio-names {
+    color: var(--primary-color-font);
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+}
+
+.portfolio-names-upper {
+    text-transform: uppercase;
+}
+
+.portfolio-discr {
+    color: var(--paragraph-color-font);
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;     
+}
