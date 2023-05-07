@@ -269,6 +269,11 @@ ol {
     color: var(--hero-color-font);
 }
 
+.mail-tel {
+    margin-top: 12px;
+}
+
+
 .header-bg-color,
 .section-buzy-bg-color,
 .portfolio-bg-color,
@@ -420,6 +425,7 @@ ol {
 /* Portfolio page */
 .section-portfolio-btn {
     padding-top: 94px;
+    /* border: none; */
 }
 
 .container-portfolio-btn {
@@ -439,6 +445,9 @@ ol {
     min-width: 38px;
     min-height: 38px;
     border-radius: 4px;
+    padding: 6px 22px;
+    border: 0
+    ;
 
     color: var(--primary-color-font);
     background-color: var(--comand-color);
