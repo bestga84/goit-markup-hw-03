@@ -280,6 +280,10 @@ ol {
     margin-right: auto;
 }
 
+.header-bg-color {
+    border-bottom: 1px solid #ECECEC;;
+}
+
 .pesron-bg-color,
 .portfolio-bg-color,
 .portfolio-fon {
