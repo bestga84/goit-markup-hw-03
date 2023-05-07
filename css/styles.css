@@ -3,7 +3,7 @@
     --second-color-font: #2196F3;
     --color-logo: #000000;
     --paragraph-color-font: #757575;
-    --hero-color-font:/* #FFFFFF;*/ tomato;
+    --hero-color-font: #FFFFFF;               /* tomato;*/
     --footer-color-font: rgba(255, 255, 255, 0.6);
     --hero-footer-color: #2F303A;
     --comand-color: #F5F4FA;
@@ -38,7 +38,8 @@ ol {
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    background-color: yellow;
+
+    /* background-color: yellow; */
 }
 
 .container-hero,
@@ -48,7 +49,8 @@ ol {
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    background-color: yellow;
+
+    /* background-color: yellow; */
 }
 
 /* .about-container,
@@ -140,12 +142,10 @@ ol {
     margin-right: 30px;
 }
 
-/* .buzy-flex > .item:not(:nth-last-child(-n + 4)) {
-    margin-bottom: 30px;
-} */
 
 .buzy-img,
-.person-img {
+.person-img,
+.portfolio-img {
     display: block;
     padding-bottom: 0;
 }
@@ -186,6 +186,16 @@ ol {
 
 .team-flex > .person-flex:nth-child(n + 5) {
     margin-top: 30px;
+}
+
+
+.btn-flex-portfolio {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-flex-portfolio > .btn-item-portfolio:not(:last-child) {
+    margin-right: 8px;
 }
 /* =====Home work # 3===== */
 
@@ -404,8 +414,28 @@ ol {
 
 /*================*/
 /* Portfolio page */
+.section-portfolio-btn {
+    padding-top: 94px;
+}
+
+.container-portfolio-btn {
+    margin-bottom: 50px;
+}
+
+.card-portfolio {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 24px;
+}
+
+
+
 
 .portfolio-btn {
+    min-width: 38px;
+    min-height: 38px;
+    border-radius: 4px;
+
     color: var(--primary-color-font);
     background-color: var(--comand-color);
 
@@ -422,6 +452,29 @@ ol {
     color: var(--hero-color-font);
     cursor: pointer;
 }
+
+
+
+.container-portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 94px;
+}
+
+.container-portfolio > .portfolio-item {
+    flex-basis: calc((100% - 30px*2) / 3);
+    margin-top: 0px;
+}
+
+.container-portfolio > .portfolio-item:not(:nth-child(3n+1)) {
+    margin-left: 30px;
+}
+
+.container-portfolio > .portfolio-item:nth-child(n + 4) {
+    margin-top: 30px;
+}
+
+
 
 .portfolio-names {
     color: var(--primary-color-font);
