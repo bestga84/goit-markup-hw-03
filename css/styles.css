@@ -205,6 +205,7 @@ ol {
 .btn-flex-portfolio {
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 .btn-flex-portfolio > .btn-item-portfolio:not(:last-child) {
@@ -430,13 +431,6 @@ ol {
     background-color: var(--comand-color);
 }
 
-/* Portfolio page*/
-/* .nav-list-link:hover,
-.nav-list-link:focus {
-    color: var(--second-color-font);
-    cursor: pointer;
-} */
-
 /* Footer */
 
 .mail-tel-footer {
@@ -459,14 +453,12 @@ ol {
     /* border: none; */
 }
 
-.container-portfolio-btn {
-    margin-bottom: 50px;
-}
 
 .card-portfolio {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 24px;
+    padding-top: 20px;
+    padding-right: 24px;
+    padding-bottom: 20px;
+    padding-left: 24px;
 }
 
 
@@ -502,7 +494,7 @@ ol {
 .container-portfolio {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 94px;
+    /* margin-bottom: 94px; */
 }
 
 .container-portfolio > .portfolio-item {
@@ -527,10 +519,12 @@ ol {
     font-size: 18px;
     line-height: 2.0;
     letter-spacing: 0.06em;
+
+    margin-bottom: 4px;
 }
 
 .portfolio-names-upper {
-    text-transform: uppercase;
+    text-transform: uppercase;    
 }
 
 .portfolio-discr {
