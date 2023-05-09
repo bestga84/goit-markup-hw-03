@@ -364,6 +364,10 @@ ol {
     background-color: var(--hero-footer-color);
 }
 
+.footer-padding {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
 
 /* Main */
 
