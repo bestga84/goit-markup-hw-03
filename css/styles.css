@@ -42,7 +42,6 @@ ol {
     /* background-color: yellow; */
 }
 
-/* .container-hero, */
 .container-footer {
     max-width: 1600px;
     padding-left: 15px;
@@ -53,22 +52,13 @@ ol {
     /* background-color: yellow; */
 }
 
-/* .about-container,
-.buzy-container {
-    padding-top: 94px;
-} */
 
-.header {
-    /* padding-top: 24px;
-    padding-bottom: 25px; */
-}
 
 .header-container {
     display: flex;
     align-items: center;
     /* min-height: 32px; */
 }
-
 
 
 .hero-padding {
@@ -95,7 +85,6 @@ ol {
     display: flex;
     align-items: center;
     margin-left: auto;
-    /* min-height: 32px; */
 }
 
 .nav-right {
@@ -105,8 +94,7 @@ ol {
 
 .section-about {
     padding-top: 94px;
-    /* padding-bottom: 94px; */
-  }
+}
 
 .section {
     padding-top: 94px;
@@ -127,19 +115,14 @@ ol {
 
 
 .contact-number {
-    /* min-height: 30px; */
     margin-left: 0;
 }
 
 .logo-footer {
     display: inline-block;
-    /* padding-top: 60px; */
     margin-bottom: 28px;
 }
 
-.address-footer {
-    /* padding-bottom: 60px; */
-}
 
 .buzy-flex {
     display: flex;
@@ -147,7 +130,6 @@ ol {
 }
 
 .buzy-flex > .item {
-    /* justify-content: space-between;  */
     flex-basis: calc((100% - 30px*3) / 4);
 }
 
@@ -227,10 +209,6 @@ ol {
     color: var(--primary-color-font);
 
     font-family: var(--primary-font);
-
-    /* max-width: 1600px;
-    margin-left: auto;
-    margin-right: auto; */
 }
 
 /* Navigation */
@@ -303,10 +281,8 @@ ol {
 .portfolio-bg-color,
 .portfolio-fon {
     background-color: var(--hero-color-font);
+
     /* background-color: tomato; */
-    /* max-width: 1600px;
-    margin-left: auto;
-    margin-right: auto; */
 }
 
 .header-bg-color {
@@ -317,6 +293,7 @@ ol {
 .portfolio-bg-color,
 .portfolio-fon {
     background-color: var(--hero-color-font);
+
     /* background-color: tomato; */
 }
 
@@ -376,8 +353,6 @@ ol {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-
-    /* padding-bottom: 194px; */
 }
 
 .description-profeshion {
@@ -386,8 +361,6 @@ ol {
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
-
-    /* padding-bottom: 30px; */
 }
 
 .card-content {
@@ -395,9 +368,6 @@ ol {
     padding-bottom: 30px;
 }
 
-/* .person-flex > .description-profeshion:nth-last-child(-n+4) {
-    padding-bottom: 30px;
-} */
 
 .name-person {
     font-weight: 500;
@@ -406,7 +376,6 @@ ol {
     text-align: center;
     letter-spacing: 0.03em;
 
-    /* padding-top: 30px; */
     margin-bottom: 10px;
 }
 
@@ -431,7 +400,6 @@ ol {
 }
 
 .comand-bg-color {
-    /* max-width: 1600px; */
     background-color: var(--comand-color);
 }
 
@@ -452,11 +420,6 @@ ol {
 
 /*================*/
 /* Portfolio page */
-.section-portfolio-btn {
-    padding-top: 94px;
-    /* border: none; */
-}
-
 
 .card-portfolio {
     padding-top: 20px;
@@ -467,14 +430,12 @@ ol {
 
 
 
-
 .portfolio-btn {
     min-width: 38px;
     min-height: 38px;
     border-radius: 4px;
     padding: 6px 22px;
-    border: 0
-    ;
+    border: 0;
 
     color: var(--primary-color-font);
     background-color: var(--comand-color);
@@ -498,7 +459,6 @@ ol {
 .container-portfolio {
     display: flex;
     flex-wrap: wrap;
-    /* margin-bottom: 94px; */
 }
 
 .container-portfolio > .portfolio-item {
