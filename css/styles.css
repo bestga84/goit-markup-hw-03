@@ -73,7 +73,7 @@ ol {
 
 .hero-padding {
     padding-top: 200px;
-    padding-bottom: 30px;
+    padding-bottom: 200px;
 }
 
 .hero-title {
@@ -81,6 +81,7 @@ ol {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+
 }
 
 .btn-box {
@@ -88,7 +89,6 @@ ol {
     min-width: 200px;
     min-height: 50px;
     border-radius: 4px;
-    margin-bottom: 200px;
 }
 
 .navigation-list {
@@ -113,6 +113,10 @@ ol {
     padding-bottom: 94px;
 }
 
+.visually-hidden {
+    display: none;
+}
+
 .logo-margin {
     margin-right: 93px;
   }
@@ -129,12 +133,12 @@ ol {
 
 .logo-footer {
     display: inline-block;
-    padding-top: 60px;
-    padding-bottom: 28px;
+    /* padding-top: 60px; */
+    margin-bottom: 28px;
 }
 
 .address-footer {
-    padding-bottom: 60px;
+    /* padding-bottom: 60px; */
 }
 
 .buzy-flex {
@@ -324,6 +328,13 @@ ol {
     text-transform: uppercase;
 }
 
+.hero-align {
+    margin-bottom: 30px;
+    max-width: 680px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .hero-btn {
     background-color: var(--second-color-font);
 
@@ -343,12 +354,13 @@ ol {
     letter-spacing: 0.02em;
 }
 
-.hero-color,
-.footer-color {
+.hero-color {
     background-color: var(--hero-footer-color);
     max-width: 1600px;
-    /* margin-left: auto;
-    margin-right: auto; */
+}
+
+.footer-color {
+    background-color: var(--hero-footer-color);
 }
 
 
@@ -400,7 +412,7 @@ ol {
     text-align: center;
     letter-spacing: 0.03em;
 
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .main-buzy {
@@ -414,7 +426,7 @@ ol {
 }
 
 .comand-bg-color {
-    max-width: 1600px;
+    /* max-width: 1600px; */
     background-color: var(--comand-color);
 }
 
