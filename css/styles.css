@@ -42,7 +42,7 @@ ol {
     /* background-color: yellow; */
 }
 
-.container-hero,
+/* .container-hero, */
 .container-footer {
     max-width: 1600px;
     padding-left: 15px;
@@ -59,15 +59,17 @@ ol {
 } */
 
 .header {
-    padding-top: 24px;
-    padding-bottom: 25px;
+    /* padding-top: 24px;
+    padding-bottom: 25px; */
 }
 
 .header-container {
     display: flex;
     align-items: center;
-    min-height: 32px;
+    /* min-height: 32px; */
 }
+
+
 
 .hero-padding {
     padding-top: 200px;
@@ -77,6 +79,8 @@ ol {
 .hero-title {
     display: block;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .btn-box {
@@ -91,8 +95,13 @@ ol {
     display: flex;
     align-items: center;
     margin-left: auto;
-    min-height: 32px;
+    /* min-height: 32px; */
 }
+
+.nav-right {
+    margin-left: 40px;
+}
+
 
 .section-about {
     padding-top: 94px;
@@ -114,8 +123,8 @@ ol {
 
 
 .contact-number {
-    min-height: 30px;
-    margin-left: 40px;
+    /* min-height: 30px; */
+    margin-left: 0;
 }
 
 .logo-footer {
@@ -214,9 +223,9 @@ ol {
 
     font-family: var(--primary-font);
 
-    max-width: 1600px;
+    /* max-width: 1600px;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; */
 }
 
 /* Navigation */
@@ -251,7 +260,11 @@ ol {
     cursor: pointer;
 }
 
+
 .nav-base-text {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -261,6 +274,12 @@ ol {
 .mail-tel-text,
 .paragraph-text {
     color: var(--paragraph-color-font);
+}
+
+.mail-tel-text {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .hero-color-text,
@@ -280,9 +299,9 @@ ol {
 .portfolio-fon {
     background-color: var(--hero-color-font);
     /* background-color: tomato; */
-    max-width: 1600px;
+    /* max-width: 1600px;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; */
 }
 
 .header-bg-color {
@@ -400,11 +419,11 @@ ol {
 }
 
 /* Portfolio page*/
-.nav-list-link:hover,
+/* .nav-list-link:hover,
 .nav-list-link:focus {
     color: var(--second-color-font);
     cursor: pointer;
-}
+} */
 
 /* Footer */
 
